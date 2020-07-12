@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var num1 = 2.7;
+        var num2 = -17;
+        var num3 = 45;
+        var deg = 66;
+        //返回绝对值
+        console.log(Math.abs(num2));
+        //返回四舍五入后的整数
+        console.log(Math.round(num1));
+        //返回近似值，向上取整
+        console.log(Math.ceil(num1));
+        //返回近似值，向下取整
+        console.log(Math.floor(num1));
+        //返回x,y中的最大值
+        console.log(Math.max(num1, num2));
+        //返回x,y中的最小值
+        console.log(Math.min(num2, num3));
+        //返回一个0-1之间的随机数
+        console.log(Math.random());
+        //返回整数部分
+        console.log(Math.trunc(num1));
+        //取x的y次幂
+        console.log(Math.pow(num2, 2));
+        //返回x的平方根
+        console.log(Math.sqrt(num3));
+        //返回x的正弦值
+        console.log(Math.sin(deg));
+        //返回x的余弦值
+        console.log(Math.cos(deg));
+        //返回x的正切值
+        console.log(Math.tan(deg));
+        //返回x的反正弦值
+        console.log(Math.asin(1));
+        //返回x的反余弦值
+        console.log(Math.acos(1));
+        //返回x的反正切值
+        console.log(Math.atan(1));
+        //可把 Number 四舍五入为指定小数位数的数字
+        console.log(num1.toFixed(1));
+        //取x的y次方根
+        console.log(Math.pow(num3, 1 / 2));
+        //查找数组中最大和最小的数字
+        var arr = [34, 43, 55, 12, 4, 17];
+        var max = Math.max(...arr);
+        var min = Math.min(...arr);
+    </script>
+</body>
+
+</html>
